@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<html>
+  <head>
+      <title>Halaman pertama HTML django</title>
+  </head>
+  <body>
+  <!--melakukan render pada suatu variable my_dict dimana variable tersebut adalah suatu array yang
+  berisi insert_me = "Hai ini halaman ku dari django" -->
+    {{ insert_me }}
+    <br>
+    <img src="{% static "kali_linux.jpg" %}" height="200" width="200">
+  </body>
+</html>
